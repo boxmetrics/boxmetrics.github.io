@@ -8,5 +8,4 @@ window.addEventListener("scroll", function() {
   } else {
     header.classList.remove("fixed");
   }
-  console.log(scrollPosition);
 });
