@@ -153,21 +153,9 @@ main section h2.title {
   color: #303133;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   max-width: 450px;
   position: relative;
-}
-
-main section h2.title::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -20px;
-  margin: auto;
-  width: 50px;
-  height: 2px;
-  background: #2874ed;
 }
 
 main section .description {
@@ -203,7 +191,7 @@ main .features .item {
 }
 
 main .trust-us img {
-  max-width: 120px;
+  width: 120px;
 }
 
 main .features .item:hover {
