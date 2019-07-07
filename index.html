@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
-      content="boxmetrics, server monitoring tools. Created by Laurent Panek, Maxence Colmant, Abdessalam Benharira"
+      content="boxmetrics is an online tool that allows your servers. Created by Laurent Panek, Maxence Colmant, Abdessalam Benharira"
     />
     <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <title>boxmetrics project</title>
+    <link rel="stylesheet" href="./lib/aos/index.min.css" />
+    <title>boxmetrics - servers monitoring</title>
   </head>
   <body>
     <header>
@@ -24,21 +25,15 @@
           /></a>
           <div class="links flex-row">
             <div>
-              <a href="#1" class="link underlined">Accueil</a>
-              <a href="#1" class="link underlined">Fonctionnalités</a>
+              <a href="#1" class="link underlined">Features</a>
               <a href="#1" class="link underlined">Blog</a>
-              <a href="#1" class="link underlined">Support</a>
+              <a href="#1" class="link underlined">Documentation</a>
             </div>
             <div class="user-links">
               <a
-                href="https://app-boxmetrics.netlify.com/auth/login"
-                class="link login"
-                >Se connecter</a
-              >
-              <a
                 href="https://app-boxmetrics.netlify.com/auth/register"
-                class="link register"
-                >S'inscrire</a
+                class="link register opacity-on-hover"
+                >Get started</a
               >
             </div>
           </div>
@@ -50,26 +45,50 @@
             <div class="intro">
               <div class="content">
                 <div class="title">
-                  <h1>Monitoring de serveurs</h1>
+                  <h1
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                    data-aos-easing="ease"
+                    data-aos-duration="800"
+                  >
+                    Servers monitoring
+                  </h1>
                 </div>
-                <div class="subtitle">
-                  boxmetrics est un ensemble d'outils vous permettant de
-                  monitorer et ainsi obtenir des informations sur la santé, la
-                  disponibilité et les performances de vos serveurs
+                <div
+                  class="subtitle"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                  data-aos-easing="ease"
+                  data-aos-duration="800"
+                >
+                  boxmetrics is an online tool that allows you to monitor and
+                  obtain informations on the health, availability and
+                  performance of your servers
                 </div>
-                <div class="description">Créez un compte gratuitement !</div>
-                <div class="buttons flex-row">
-                  <a href="#" class="link more">En savoir plus</a>
+                <div
+                  class="buttons flex-row"
+                  data-aos="fade-up"
+                  data-aos-delay="800"
+                  data-aos-easing="ease"
+                  data-aos-duration="800"
+                >
+                  <a href="#" class="link more opacity-on-hover">Get started</a>
                   <a
                     href="https://app-boxmetrics.netlify.com/auth/register"
-                    class="link register"
-                    >S'inscrire</a
+                    class="link register opacity-on-hover"
+                    >See documentation</a
                   >
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div
+            class="col-6 preview"
+            data-aos="fade-left"
+            data-aos-delay="800"
+            data-aos-easing="ease"
+            data-aos-duration="800"
+          >
             <img
               src="./assets/images/screen.png"
               width="100%"
@@ -80,156 +99,152 @@
       </div>
     </header>
     <main>
-      <section class="trust-us no-padding">
-        <div class="flex-row">
-          <div class="item col-3 flex-column">
-            <img src="./assets/images/startup.png" width="100%" alt="" />
-          </div>
-          <div class="item col-3 flex-column">
-            <img src="./assets/images/startup.png" width="100%" alt="" />
-          </div>
-          <div class="item col-3 flex-column">
-            <img src="./assets/images/startup.png" width="100%" alt="" />
-          </div>
-          <div class="item col-3 flex-column">
-            <img src="./assets/images/startup.png" width="100%" alt="" />
-          </div>
-        </div>
-      </section>
-      <section class="container features">
-        <h2 class="title">Fonctionnalités</h2>
-        <p class="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-          consequatur voluptas enim
-        </p>
-
-        <div class="row">
-          <div class="col-3 item flex-column">
-            <div class="icon">
-              <img src="./assets/images/easy.png" width="60" alt="" />
+      <section class="features">
+        <div class="container">
+          <h2
+            class="title"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-easing="ease"
+            data-aos-duration="800"
+          >
+            Features
+          </h2>
+          <div
+            class="row"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-easing="ease"
+            data-aos-duration="800"
+          >
+            <div class="col-3 item flex-column">
+              <div class="icon">
+                <img src="./assets/images/easy.png" width="60" alt="" />
+              </div>
+              <div class="title">
+                Simple to set up
+              </div>
             </div>
-            <div class="title">Simple à mettre en place</div>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit
-            </p>
-          </div>
-          <div class="col-3 item flex-column">
-            <div class="icon">
-              <img src="./assets/images/time.png" width="60" alt="" />
+            <div class="col-3 item flex-column">
+              <div class="icon">
+                <img src="./assets/images/time.png" width="60" alt="" />
+              </div>
+              <div class="title">Real time informations</div>
             </div>
-            <div class="title">Infos en temps réel</div>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit
-            </p>
-          </div>
-          <div class="col-3 item flex-column">
-            <div class="icon">
-              <img src="./assets/images/email.png" width="70" alt="" />
+            <div class="col-3 item flex-column">
+              <div class="icon">
+                <img src="./assets/images/email.png" width="60" alt="" />
+              </div>
+              <div class="title">Email notifications</div>
             </div>
-            <div class="title">Notifications par mail</div>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit
-            </p>
-          </div>
-          <div class="col-3 item flex-column">
-            <div class="icon">
-              <img src="./assets/images/secured.png" width="60" alt="" />
+            <div class="col-3 item flex-column">
+              <div class="icon">
+                <img src="./assets/images/secured.png" width="60" alt="" />
+              </div>
+              <div class="title">Secured app</div>
             </div>
-            <div class="title">Sécurisé</div>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit
-            </p>
           </div>
         </div>
       </section>
       <section class="contributors">
-        <h2 class="title">Contributeurs</h2>
-        <p class="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-          consequatur voluptas enim
-        </p>
+        <h2
+          class="title"
+          data-aos="fade-up"
+          data-aos-delay="400"
+          data-aos-easing="ease"
+          data-aos-duration="800"
+        >
+          Contributors
+        </h2>
 
-        <div class="row">
-          <div class="item col-4 flex-column opacity-on-hover">
-            <a href="https://laurent-panek.github.io/" target="_blank"
-              ><img
-                src="./assets/images/laurent-panek.png"
-                width="120"
-                alt=""
-              />
-              <p class="contributor">Laurent Panek</p>
-              <span class="job description">Développeur Backend</span>
-            </a>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="600"
+          data-aos-easing="ease"
+          data-aos-duration="800"
+        >
+          <div class="row">
+            <div class="item col-4 flex-column opacity-on-hover">
+              <a href="https://laurent-panek.github.io/" target="_blank"
+                ><img
+                  src="./assets/images/laurent-panek.png"
+                  width="120"
+                  alt=""
+                />
+                <p class="contributor">Laurent Panek</p>
+                <span class="job description">Backend developer</span>
+              </a>
+            </div>
+            <div class="item col-4 flex-column opacity-on-hover">
+              <a href="https://github.com/maxencecolmant" target="_blank"
+                ><img
+                  src="./assets/images/maxence-colmant.png"
+                  width="120"
+                  alt=""
+                />
+                <p class="contributor">Maxence Colmant</p>
+                <span class="job description">DevOps</span>
+              </a>
+            </div>
+            <div class="item col-4 flex-column opacity-on-hover">
+              <a href="https://abdessalam.dev" target="_blank"
+                ><img
+                  src="./assets/images/abdessalam-benharira.jpg"
+                  width="120"
+                  alt=""
+                />
+                <p class="contributor">Abdessalam Benharira</p>
+                <span class="job description">Frontend developer</span>
+              </a>
+            </div>
           </div>
-          <div class="item col-4 flex-column opacity-on-hover">
-            <a href="https://github.com/maxencecolmant" target="_blank"
-              ><img
-                src="./assets/images/maxence-colmant.png"
-                width="120"
-                alt=""
-              />
-              <p class="contributor">Maxence Colmant</p>
-              <span class="job description">DevOps</span>
-            </a>
-          </div>
-          <div class="item col-4 flex-column opacity-on-hover">
-            <a href="https://abdessalam.dev" target="_blank"
-              ><img
-                src="./assets/images/abdessalam-benharira.jpg"
-                width="120"
-                alt=""
-              />
-              <p class="contributor">Abdessalam Benharira</p>
-              <span class="job description">Développeur Frontend</span>
-            </a>
-          </div>
+          <a
+            target="_blank"
+            href="https://github.com/boxmetrics"
+            class="btn cta-contributor opacity-on-hover"
+            >Become a contributor</a
+          >
         </div>
       </section>
     </main>
-    <footer class="footer container">
+    <footer class="container footer">
       <div class="pre-footer">
         <div class="flex-row">
-          <div class="col-3 ">
-            <a href="#1" class="brand-link"
-              ><img
+          <div class="col-6">
+            <a href="#1" class="brand-link">
+              <img
                 src="./assets/images/boxmetrics-logo.png"
                 width="150"
                 alt="Logo boxmetrics"
-            /></a>
+              />
+            </a>
+            <p class="copyright">
+              © 2019 - Made with
+              <span class="heart" style="color: #fd184d;">♥</span> by boxmetrics
+              team
+            </p>
           </div>
-          <div class="col-3">
-            <h2>Produit</h2>
+          <div class="col-6 social-links">
             <ul>
-              <li class="opacity-on-hover"><a href="#1">Fonctionnalités</a></li>
-              <li class="opacity-on-hover"><a href="#1">Utilisation</a></li>
+              <li>
+                <a href="#" class="opacity-on-hover"
+                  ><img width="16" src="./assets/images/twitter.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="opacity-on-hover"
+                  href="https://github.com/boxmetrics"
+                  ><img width="16" src="./assets/images/github.png" alt=""
+                /></a>
+              </li>
             </ul>
           </div>
-          <div class="col-3">
-            <h2>Ressources</h2>
-            <ul>
-              <li class="opacity-on-hover"><a href="#1">Blog</a></li>
-              <li class="opacity-on-hover"><a href="#1">Développeurs</a></li>
-            </ul>
-          </div>
-          <div class="col-3">
-            <h2>Projet</h2>
-            <ul>
-              <li class="opacity-on-hover"><a href="#1">A propos</a></li>
-              <li class="opacity-on-hover"><a href="#1">Equipe</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="post-footer">
-        <div>
-          <p>
-            © 2019 - Made with
-            <span class="heart" style="color: #fd184d;">♥</span> by boxmetrics
-            team
-          </p>
         </div>
       </div>
     </footer>
+    <script src="./lib/aos/index.min.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

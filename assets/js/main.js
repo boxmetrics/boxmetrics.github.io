@@ -9,3 +9,7 @@ window.addEventListener("scroll", function() {
     header.classList.remove("fixed");
   }
 });
+
+if (AOS && AOS.init) {
+  AOS.init();
+}
