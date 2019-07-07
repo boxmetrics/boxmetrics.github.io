@@ -31,5 +31,19 @@
   transition: opacity 0.2s ease;
 }
 .opacity-on-hover:hover {
-  opacity: 0.6;
+  opacity: 0.8;
+}
+
+.btn {
+  border: 2px solid #ffffff;
+  color: #303133;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.btn.blue {
+  border-color: #2874ed;
+  color: #ffffff;
+  background-color: #2874ed;
 }

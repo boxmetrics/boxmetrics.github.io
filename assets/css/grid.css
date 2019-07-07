@@ -186,16 +186,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  [class^="col"] {
-    width: 100%;
-  }
-
-  .row {
-    flex-direction: column;
-  }
-}
-
 .flex-column {
   display: flex;
   align-items: center;
@@ -208,4 +198,14 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  [class^="col"] {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
 }
