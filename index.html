@@ -10,30 +10,76 @@
     />
     <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="./lib/aos/index.min.css" />
-    <title>boxmetrics - servers monitoring</title>
+    <title>boxmetrics - servers monitoring and analytics tools</title>
   </head>
   <body>
     <header>
       <nav class="navbar flex-row">
-        <div class="container inner-navbar flex-row">
+        <div class="container inner-navbar flex-row desktop-nav">
           <a href="#1"
             ><img
-              src="./assets/images/boxmetrics-logo.png"
+              src="./assets/images/boxmetrics-logo-full.png"
               width="150"
               alt="Logo boxmetrics"
           /></a>
           <div class="links flex-row">
             <div>
-              <a href="#1" class="link underlined">Features</a>
-              <a href="#1" class="link underlined">Blog</a>
-              <a href="#1" class="link underlined">Documentation</a>
+              <a href="#" class="link underlined">Features</a>
+              <a href="#" class="link underlined">Blog</a>
+              <a href="#" class="link underlined">Documentation</a>
             </div>
             <div class="user-links">
               <a
+                href="https://app-boxmetrics.netlify.com/auth/login"
+                class="link login underlined"
+                >Login</a
+              >
+              <a
                 href="https://app-boxmetrics.netlify.com/auth/register"
                 class="link register opacity-on-hover"
-                >Get started</a
+                >Register</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="container inner-navbar flex-row mobile-nav">
+          <a href="#1">
+            <img
+              src="./assets/images/boxmetrics-logo-full.png"
+              width="150"
+              alt="Logo boxmetrics"
+            />
+          </a>
+          <button class="nav-button">
+            <img
+              class="icon-menu"
+              src="./assets/images/icon-menu.png"
+              width="22"
+              alt="icon menu"
+            />
+            <img
+              class="icon-close"
+              src="./assets/images/icon-close.png"
+              width="16"
+              alt="icon close"
+            />
+          </button>
+          <div class="mobile-nav-links">
+            <div>
+              <a href="#" class="link">Features</a>
+              <a href="#" class="link">Blog</a>
+              <a href="#" class="link">Documentation</a>
+            </div>
+            <div class="user-links">
+              <a
+                href="https://app-boxmetrics.netlify.com/auth/login"
+                class="link login underlined"
+                >Login</a
+              >
+              <a
+                href="https://app-boxmetrics.netlify.com/auth/register"
+                class="link register opacity-on-hover"
+                >Register</a
               >
             </div>
           </div>
@@ -41,210 +87,42 @@
       </nav>
       <div class="container inner-header flex-row">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12">
             <div class="intro">
               <div class="content">
                 <div class="title">
-                  <h1
-                    data-aos="fade-up"
-                    data-aos-delay="400"
-                    data-aos-easing="ease"
-                    data-aos-duration="800"
-                  >
-                    Servers monitoring
+                  <h1>
+                    Servers monitoring and analytics tools
                   </h1>
                 </div>
-                <div
-                  class="subtitle"
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                  data-aos-easing="ease"
-                  data-aos-duration="800"
-                >
-                  boxmetrics is an online tool that allows you to monitor and
+                <div class="subtitle">
+                  boxmetrics is a set of services that allows you to monitor and
                   obtain informations on the health, availability and
                   performance of your servers
                 </div>
-                <div
-                  class="buttons flex-row"
-                  data-aos="fade-up"
-                  data-aos-delay="800"
-                  data-aos-easing="ease"
-                  data-aos-duration="800"
-                >
-                  <a href="https://app-boxmetrics.netlify.com/auth/register" class="link more opacity-on-hover">Get started</a>
+                <div class="buttons flex-row">
                   <a
-                    href="#"
-                    class="link register opacity-on-hover"
+                    href="https://app-boxmetrics.netlify.com/auth/register"
+                    class="link more opacity-on-hover"
+                    >Get started</a
+                  >
+                  <a href="#" class="link register opacity-on-hover"
                     >See documentation</a
                   >
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            class="col-6 preview"
-            data-aos="fade-left"
-            data-aos-delay="800"
-            data-aos-easing="ease"
-            data-aos-duration="800"
-          >
-            <img
-              src="./assets/images/screen.png"
-              width="100%"
-              alt="Logo boxmetrics"
-            />
+            <div class="preview">
+              <img
+                src="./assets/images/boxmetrics-preview.png"
+                width="100%"
+                alt="boxmetrics dashboard preview"
+              />
+            </div>
           </div>
         </div>
       </div>
     </header>
-    <main>
-      <section class="features">
-        <div class="container">
-          <h2
-            class="title"
-            data-aos="fade-up"
-            data-aos-delay="400"
-            data-aos-easing="ease"
-            data-aos-duration="800"
-          >
-            Features
-          </h2>
-          <div
-            class="row"
-            data-aos="fade-up"
-            data-aos-delay="600"
-            data-aos-easing="ease"
-            data-aos-duration="800"
-          >
-            <div class="col-3 item flex-column">
-              <div class="icon">
-                <img src="./assets/images/easy.png" width="60" alt="" />
-              </div>
-              <div class="title">
-                Simple to set up
-              </div>
-            </div>
-            <div class="col-3 item flex-column">
-              <div class="icon">
-                <img src="./assets/images/time.png" width="60" alt="" />
-              </div>
-              <div class="title">Real time informations</div>
-            </div>
-            <div class="col-3 item flex-column">
-              <div class="icon">
-                <img src="./assets/images/email.png" width="60" alt="" />
-              </div>
-              <div class="title">Email notifications</div>
-            </div>
-            <div class="col-3 item flex-column">
-              <div class="icon">
-                <img src="./assets/images/secured.png" width="60" alt="" />
-              </div>
-              <div class="title">Secured app</div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contributors">
-        <h2
-          class="title"
-          data-aos="fade-up"
-          data-aos-delay="400"
-          data-aos-easing="ease"
-          data-aos-duration="800"
-        >
-          Contributors
-        </h2>
-
-        <div
-          data-aos="fade-up"
-          data-aos-delay="600"
-          data-aos-easing="ease"
-          data-aos-duration="800"
-        >
-          <div class="row">
-            <div class="item col-4 flex-column opacity-on-hover">
-              <a href="https://laurent-panek.github.io/" target="_blank"
-                ><img
-                  src="./assets/images/laurent-panek.png"
-                  width="120"
-                  alt=""
-                />
-                <p class="contributor">Laurent Panek</p>
-                <span class="job description">Backend developer</span>
-              </a>
-            </div>
-            <div class="item col-4 flex-column opacity-on-hover">
-              <a href="https://github.com/maxencecolmant" target="_blank"
-                ><img
-                  src="./assets/images/maxence-colmant.png"
-                  width="120"
-                  alt=""
-                />
-                <p class="contributor">Maxence Colmant</p>
-                <span class="job description">DevOps</span>
-              </a>
-            </div>
-            <div class="item col-4 flex-column opacity-on-hover">
-              <a href="https://abdessalam.dev" target="_blank"
-                ><img
-                  src="./assets/images/abdessalam-benharira.jpg"
-                  width="120"
-                  alt=""
-                />
-                <p class="contributor">Abdessalam Benharira</p>
-                <span class="job description">Frontend developer</span>
-              </a>
-            </div>
-          </div>
-          <a
-            target="_blank"
-            href="https://github.com/boxmetrics"
-            class="btn cta-contributor opacity-on-hover"
-            >Become a contributor</a
-          >
-        </div>
-      </section>
-    </main>
-    <footer class="container footer">
-      <div class="pre-footer">
-        <div class="flex-row">
-          <div class="col-6">
-            <a href="#1" class="brand-link">
-              <img
-                src="./assets/images/boxmetrics-logo.png"
-                width="150"
-                alt="Logo boxmetrics"
-              />
-            </a>
-            <p class="copyright">
-              © 2019 - Made with
-              <span class="heart" style="color: #fd184d;">♥</span> by boxmetrics
-              team
-            </p>
-          </div>
-          <div class="col-6 social-links">
-            <ul>
-              <li>
-                <a href="#" class="opacity-on-hover"
-                  ><img width="16" src="./assets/images/twitter.png" alt=""
-                /></a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  class="opacity-on-hover"
-                  href="https://github.com/boxmetrics"
-                  ><img width="16" src="./assets/images/github.png" alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="./lib/aos/index.min.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
