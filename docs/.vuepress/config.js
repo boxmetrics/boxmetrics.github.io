@@ -10,11 +10,11 @@ module.exports = {
     ["sitemap", { hostname: "http://boxmetrics.github.io" }]
   ],
   themeConfig: {
+    base: "/boxmetrics.github.io/",
     logo: "/boxmetrics-logo.png",
     sidebar: "auto",
     sidebarDepth: 1,
     docsDir: "docs",
-    docsBranch: "release/docs",
     editLinks: true,
     editLinkText: "Edit this page on GitHub",
     lastUpdated: true,
