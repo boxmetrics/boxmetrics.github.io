@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "pages:dev": "vuepress dev pages",
+    "pages:build": "vuepress build pages"
   },
   "devDependencies": {
     "vuepress": "^1.2.0"
