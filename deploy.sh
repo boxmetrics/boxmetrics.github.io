@@ -11,5 +11,5 @@ git init
 git add -A
 git commit -m "$1"
 
-git push git@github.com:boxmetrics/boxmetrics.github.io.git master
+git push -f git@github.com:boxmetrics/boxmetrics.github.io.git master
 cd -
