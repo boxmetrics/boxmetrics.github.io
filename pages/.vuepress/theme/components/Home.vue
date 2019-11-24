@@ -138,7 +138,7 @@ header
                 .register
                     border 2px solid #2874ed
                     border-radius 3px
-                    padding 8px 20px
+                    padding 12px 28px
                     color #ffffff
                     background-color #2874ed
                     margin-right 20px
@@ -150,7 +150,7 @@ header
                 .user-links
                     .login
                         background-color transparent
-                        color #858585
+                        color #556282
                         border-color #e7e7e7
                     .register
                         border-color #2874ed
@@ -224,16 +224,16 @@ header
         justify-content center
         .more
             border 2px solid #2874ed
-            padding 12px 20px
+            padding 14px 22px
             border-radius 3px
             color #ffffff
             background-color #2874ed
             margin-right 20px
         .register
-            border 2px solid #e7e7e7
-            padding 12px 20px
+            border 1px solid #b9c4d7
+            padding 16px 22px
             border-radius 3px
-            color #858585
+            color #556282
             background-color transparent
     .intro
         max-width 860px
@@ -242,10 +242,13 @@ header
         margin-top 160px
         text-align center
         .subtitle
-            font-size 20px
-            line-height 32px
-            color #858585
+            font-size 18px
+            line-height 1.65
+            color #556282
+            width 90%
             margin-bottom 40px
+            margin-right auto
+            margin-left auto
         .description
             font-size 16px
             font-weight 500
@@ -257,7 +260,8 @@ header .intro .title h1
     font-size 48px
     color #303133
     margin-top 0
-    font-weight 500
+    margin-bottom 12px
+    font-weight 600
 
 @media only screen and (max-width: 767.98px)
     header
@@ -270,7 +274,6 @@ header .intro .title h1
             margin-top 0 !important
             .subtitle
                 font-size 16px
-                color #858585
                 margin-bottom 40px
                 line-height initial
         .buttons
