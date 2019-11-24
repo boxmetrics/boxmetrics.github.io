@@ -137,7 +137,7 @@ header
                 margin-left 60px
                 .register
                     border 2px solid #2874ed
-                    border-radius 3px
+                    border-radius 4px
                     padding 12px 28px
                     color #ffffff
                     background-color #2874ed
@@ -225,14 +225,14 @@ header
         .more
             border 2px solid #2874ed
             padding 14px 22px
-            border-radius 3px
+            border-radius 4px
             color #ffffff
             background-color #2874ed
             margin-right 20px
         .register
             border 1px solid #b9c4d7
             padding 16px 22px
-            border-radius 3px
+            border-radius 4px
             color #556282
             background-color transparent
     .intro
